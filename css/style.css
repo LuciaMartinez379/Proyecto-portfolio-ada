@@ -1,0 +1,171 @@
+/*ESTILOS GENERALES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2e31;
+}
+
+/*NAV*/
+
+a {
+    text-decoration: none;
+    color: #2e2e31;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a:hover{
+    color: #eb46b4;
+}
+
+.btn, button {
+    padding: 10px 30px;
+}
+
+.btn:hover, .cta:hover, button:hover {
+    color: white;
+    background-color: rgba(235, 70, 180, .9);
+}
+
+.btn, .cta, button {
+    background-color: #eb46b4;
+    color: white;
+    border-radius: 50px;
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+}
+
+/*HERO*/
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: #eb46b4;
+}
+
+img {
+    max-width: 500px;
+}
+
+h3 {
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#conocimientos {
+    background-color: #fafafa;
+}
+
+/*CONOCIMIENTOS*/
+
+.lenguaje, .proyecto {
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.lenguaje {
+    width: 20%;
+}
+
+/*CITA*/
+
+.quote {
+    background-color: #eb46b4;
+    padding: 100px 130px;
+    color: white;
+}
+
+.quote-icon {
+    font-size: 5em !important;
+    color: white !important;
+}
+
+.texto-quote, .cd {
+    font-size: 1.3em;
+}
+
+.cd {
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+/*CONTENEDOR FORMULARIO*/
+
+#contacto {
+    background-color: #f6f7fb;
+}
+
+.contenedor-contacto {
+    padding: 80px 60px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+/*FORMULARIO*/
+
+label {
+    font-weight: 700;
+}
+
+input, textarea {
+    background-color: #fafafa;
+    border: none;
+    padding: 10px 15px;
+}
+
+/*BOTONES*/
+
+button {
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+button:active, .cta:active, .btn:active{
+    background-color: #e622a4;
+    box-shadow: 0px 0px 7px #eb46b4;
+    outline: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #eb46b4;
+}
+
+.social-segundo-item:active {
+    box-shadow: 0px 0px 7px white;
+}
+
+footer i:hover {
+    color: white;
+}

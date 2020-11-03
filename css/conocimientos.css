@@ -1,0 +1,21 @@
+.texto {
+    margin-bottom: 40px;
+}
+
+.lenguaje {
+    transition: 0.2s;
+}
+
+.lenguaje:hover, .proyecto:hover{
+    border-color: #eb46b4;
+}
+
+.lenguaje i {
+    font-size: 5em;
+    margin: 20px 0;
+}
+
+.nombre-lenguaje {
+    font-size: 1.2em;
+    font-weight: 700;
+}

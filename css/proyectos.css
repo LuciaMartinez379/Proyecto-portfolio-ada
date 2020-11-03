@@ -1,0 +1,22 @@
+.texto-proyectos {
+    margin-bottom: 30px;
+}
+
+.proyecto {
+    transition: 0.2s;
+}
+
+.nombre-proyecto {
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .grilla-proyectos {
+        justify-content: center;
+    }
+
+    .quote .columna {
+        font-size: .9em;
+    }
+}
