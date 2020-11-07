@@ -40,8 +40,8 @@ img {
         text-align: center;
     }
 
-    img {
+    .img img {
         max-width: 300px;
-        margin-top: 60px;
+        margin-top: 90px;
     }
 }
