@@ -19,4 +19,8 @@
     .quote .columna {
         font-size: .9em;
     }
+
+    .texto-quote {
+        width: 100%;
+    }
 }

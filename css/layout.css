@@ -174,10 +174,6 @@ main {
     width: 50%;
 }
 
-form {
-    max-width: 80%;
-}
-
 .nombre {
     display: flex;
     justify-content: space-between;
