@@ -10,6 +10,10 @@ main {
     padding: 50px;
 }
 
+img {
+    max-width: 400px;
+}
+
 .cta {
     padding: 15px 40px;
 }
@@ -34,5 +38,9 @@ main {
         justify-content: space-evenly;
         margin-top: 90px;
         text-align: center;
+    }
+
+    img {
+        margin-top: 40px;
     }
 }

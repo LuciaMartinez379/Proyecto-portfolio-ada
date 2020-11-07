@@ -83,8 +83,16 @@ footer {
 
 @media screen and (max-width: 1100px) {
     #contacto {
-        padding: 50px;
+        padding: 20px;
         font-size: .9em;
+    }
+
+    .contenedor-contacto {
+        padding: 20px;
+    }
+
+    .contactame {
+        margin-right: 0;
     }
 
     .nombre {
@@ -112,7 +120,6 @@ footer {
     .contenedor-contacto {
         flex-direction: column;
         justify-content: space-between;
-        padding: 0;
         border: none;
     }
 
