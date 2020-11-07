@@ -16,6 +16,10 @@
         justify-content: center;
     }
 
+    .img-proyecto{
+        margin-top: 15px;
+    }
+
     .quote .columna {
         font-size: .9em;
     }
