@@ -95,6 +95,10 @@ footer {
         margin-right: 0;
     }
 
+    .social-primero-items {
+        padding-left: 0;
+    }
+
     .nombre {
         flex-direction: column;
     }
