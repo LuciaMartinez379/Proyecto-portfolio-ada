@@ -52,6 +52,7 @@ main {
 .contenedor-conocimientos {
     width: 100%;
     max-width: 1100px;
+    min-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,7 +87,6 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 55vh;
 }
 
 .columna {
@@ -144,13 +144,14 @@ main {
 .contenedor-contacto {
     width: 100%;
     max-width: 1100px;
+    min-width: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     text-align: left;
 }
 
-.izquierda {
+.contactame {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -171,7 +172,7 @@ main {
     justify-content: space-around;
 }
 
-.derecha {
+.escribime {
     width: 50%;
 }
 
@@ -203,6 +204,7 @@ footer nav{
 }
 
 footer ul {
+    min-width: 300px;
     width: 20%;
     display: flex;
     justify-content: space-evenly;

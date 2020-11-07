@@ -7,7 +7,7 @@
 }
 
 .lenguaje:hover, .proyecto:hover{
-    border-color: #eb46b4;
+    border-color: var(--colorPrimario);
 }
 
 .lenguaje i {
